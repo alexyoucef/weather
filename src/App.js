@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Weather from './actions/components/Weather.js';
+import Weather from './components/Weather.js';
 
 function App() {
   return (
     <div className="App">
-        <Weather />
       <header className="App-header">
+        <Weather />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
